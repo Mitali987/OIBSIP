@@ -1,52 +1,62 @@
-# BMI Calculator
+# Weather App
 
 ## 📌 About
 
-A simple **BMI (Body Mass Index) Calculator** built using Python as part of the **OASIS INFOBYTE Python Programming Internship**.
+A simple **Weather App** built using Python as part of the **OASIS INFOBYTE Python Programming Internship**.
+
+The application fetches and displays the current weather information for a given city or ZIP code.
 
 ## ✨ Features
 
-* Takes weight in kilograms (kg)
-* Takes height in meters (m)
-* Calculates BMI
-* Displays BMI up to 2 decimal places
-* Shows BMI category
-* Handles invalid and negative inputs
+* Enter city or ZIP code
+* Shows current temperature
+* Shows humidity
+* Shows weather condition
+* Shows wind speed
+* Handles invalid city input
+* Handles network/API errors
+* Rejects empty input
 
-## 🧮 Formula
-
-```text
-BMI = Weight / (Height²)
-```
-
-## 📊 BMI Categories
-
-| BMI         | Category      |
-| ----------- | ------------- |
-| Below 18.5  | Underweight   |
-| 18.5 – 24.9 | Normal weight |
-| 25 – 29.9   | Overweight    |
-| 30 or above | Obese         |
-
-## 🛠️ Technology
+## 🛠️ Technologies Used
 
 * Python
+* Weather API
+* JSON
 * Visual Studio Code
 
 ## ▶️ How to Run
 
+Install the required library:
+
 ```bash
-python bmi_calculator.py
+pip install requests
 ```
 
-## 📂 Files
+Run the application:
+
+```bash
+python weather_app.py
+```
+
+## 📂 Project Structure
 
 ```text
-BMI-Calculator/
-├── bmi_calculator.py
+Weather-App/
+├── weather_app.py
 └── README.md
+```
+
+## 🌦️ Example
+
+```text
+Enter city name: Delhi
+
+Temperature: 30°C
+Humidity: 65%
+Condition: Clear
+Wind Speed: 3.5 m/s
 ```
 
 ## 👩‍💻 Author
 
-**Mitali Sinha**
+**[Mitali Sinha]**
