@@ -1,60 +1,37 @@
-# Weather App
+# Random Password Generator
 
 ## 📌 About
 
-A simple **Weather App** built using Python as part of the **OASIS INFOBYTE Python Programming Internship**.
-
-The application fetches and displays the current weather information for a given city or ZIP code.
+A simple **Random Password Generator** built using Python as part of the **OASIS INFOBYTE Python Programming Internship**.
 
 ## ✨ Features
 
-* Enter city or ZIP code
-* Shows current temperature
-* Shows humidity
-* Shows weather condition
-* Shows wind speed
-* Handles invalid city input
-* Handles network/API errors
-* Rejects empty input
+* Generates random passwords
+* Minimum password length of 8 characters
+* Supports uppercase letters
+* Supports lowercase letters
+* Supports numbers
+* Supports symbols
+* Requires at least 2 character types
+* Handles invalid input
 
-## 🛠️ Technologies Used
+## 🛠️ Technology
 
 * Python
-* Weather API
-* JSON
 * Visual Studio Code
 
 ## ▶️ How to Run
 
-Install the required library:
-
 ```bash
-pip install requests
+python password_generator.py
 ```
 
-Run the application:
-
-```bash
-python weather_app.py
-```
-
-## 📂 Project Structure
+## 📂 Files
 
 ```text
-Weather-App/
-├── weather_app.py
+Random-Password-Generator/
+├── password_generator.py
 └── README.md
-```
-
-## 🌦️ Example
-
-```text
-Enter city name: Delhi
-
-Temperature: 30°C
-Humidity: 65%
-Condition: Clear
-Wind Speed: 3.5 m/s
 ```
 
 ## 👩‍💻 Author
